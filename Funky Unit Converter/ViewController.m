@@ -17,11 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NSLog(@"Hello World");
 
     int x = 5;
     int y = 20;
     int z = -2;
+
+    NSLog(@"The value of x is %i. The value of y is %i. The value of z is %i", x,y,z);
+
 
     //operators include: +, -, *, /
 
@@ -34,6 +36,7 @@
     float distanceToTravel = heightOFEverest - heightOfEverestBaseCamp;
     distanceToTravel = distanceToTravel - 1000;
 
+    NSLog(@"The distance from bottom of Everst to the top of Everst is", distanceToTravel);
 
 
 }
