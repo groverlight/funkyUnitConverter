@@ -23,12 +23,7 @@
     int y = 20;
     int z = -2;
 
-<<<<<<< HEAD
     NSLog(@"The value of w is %i. The value of x is %i. The value of y is %i. The value of z is %i.", w,x,y,z);
-=======
-    NSLog(@"The value of x is %i. The value of y is %i. The value of z is %i", x,y,z);
->>>>>>> 4fafdc35bea6f9a4abd885897abcbb1001ad21b9
-
 
     //operators include: +, -, *, /
 
@@ -41,11 +36,8 @@
     float distanceToTravel = heightOFEverest - heightOfEverestBaseCamp;
     distanceToTravel = distanceToTravel - 1000;
 
-<<<<<<< HEAD
     NSLog(@"The distance from bottom of Everst to the top of Everst is %f", distanceToTravel);
-=======
-    NSLog(@"The distance from bottom of Everst to the top of Everst is", distanceToTravel);
->>>>>>> 4fafdc35bea6f9a4abd885897abcbb1001ad21b9
+
 
 
 }
