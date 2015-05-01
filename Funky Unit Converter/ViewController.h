@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *numberOfBillsTextField;
+@property (strong, nonatomic) IBOutlet UILabel *totalNumberOfFieldsTally;
+- (IBAction)convertUnits:(UIButton *)sender;
 
 @end
 
